@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="otp">Verify OTP</string>
+    <string name="mobilenumber">Mobile number</string>
+    <string name="full_name">Full name</string>
+    <string name="email_address">Email Address</string>
+    <string name="referral_code_optional">Referral code(Optional)</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="gender">Gender</string>
+    <string name="logout">Logout</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="profile">Your Profile</string>
+    <string name="wallet">Wallet</string>
+    <string name="your_bookings">Your bookings</string>
+    <string name="refer_and_earn">Refer and Earn</string>
+    <string name="support">Support</string>
+    <string name="about_us">About Us</string>
+    <string name="faq">FAQ</string>
+    <string name="select_pickup_date">Select pickup date</string>
+    <string name="select_pickup_time">Select pickup time</string>
+    <string name="pickup_location">Pickup Location</string>
+    <string name="get_prices">Get Prices</string>
+    <string name="destnination_city">Destnination City</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="home">Home</string>
+    <string name="save">Save Changes</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="proceed_to_pay">Proceed to Pay</string>
+    <string name="looking_for_rental_cars">Looking for RENTAL CARS?</string>
+    <string name="drop_off_location">Drop off Location</string>
+    <string name="cancel">Cancel</string>
+</resources>

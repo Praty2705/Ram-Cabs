@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/Mehome"
+            android:icon="@drawable/home"
+            android:title="@string/home"
+            />
+
+
+        <item android:id="@+id/Meprofile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile"
+            />
+
+
+        <item android:id="@+id/Mewallet"
+        android:icon="@drawable/wallet"
+        android:title="@string/wallet"
+        />
+
+        <item android:id="@+id/Mebooking"
+            android:icon="@drawable/clock"
+            android:title="@string/your_bookings"
+            />
+
+        <item android:id="@+id/Merefer"
+            android:icon="@drawable/giftcard"
+            android:title="@string/refer_and_earn"
+            />
+        <item android:id="@+id/Mesupport"
+            android:icon="@drawable/supportus"
+            android:title="@string/support"
+            />
+        <item android:id="@+id/Meaboutus"
+            android:icon="@drawable/aboutus"
+            android:title="@string/about_us"
+            />
+
+        <item android:id="@+id/Mefaq"
+            android:icon="@drawable/faq"
+            android:title="@string/faq"
+            />
+
+        <item android:id="@+id/Melogout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout"
+            />
+
+</menu>

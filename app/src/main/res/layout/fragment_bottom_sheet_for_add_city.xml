@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bottomsheet.BottomSheetForAddCity">
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     >
+
+     <com.google.android.material.textfield.TextInputLayout
+         android:id="@+id/endcity"
+         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:fontFamily="@font/abril_fatface"
+         android:hint="@string/drop_off_location"
+         android:textColorHint="#8C8989"
+         app:boxCornerRadiusBottomEnd="8dp"
+         app:boxCornerRadiusBottomStart="8dp"
+         app:boxCornerRadiusTopEnd="8dp"
+         app:boxCornerRadiusTopStart="8dp"
+         app:boxStrokeColor="#8C8989"
+         app:boxStrokeWidth="0.5dp"
+         app:hintTextColor="#8C8989"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent">
+
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:id="@+id/endcityET"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="100dp"
+             android:fontFamily="@font/abril_fatface"
+             android:singleLine="true"
+             android:textColor="@color/black"
+             android:textSize="15sp"
+             android:textStyle="bold"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.736"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="@+id/textView40" />
+
+
+     </com.google.android.material.textfield.TextInputLayout>
+
+     <Button
+         android:id="@+id/bottomsheetaddcityBTN"
+         android:layout_width="200dp"
+         android:layout_height="40dp"
+         android:layout_marginStart="36dp"
+         android:layout_marginTop="64dp"
+         android:background="@drawable/gradient_button"
+         android:backgroundTintMode="@null"
+         android:fontFamily="@font/abril_fatface"
+         android:text="Add City"
+         android:textColor="@color/black"
+         app:backgroundTint="@null"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/endcity" />
+
+     <TextView
+         android:id="@+id/bottonsheetcancelTV"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="64dp"
+         android:text="@string/cancel"
+         android:textColor="@color/red"
+         android:textSize="25sp"
+         android:textStyle="bold"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toEndOf="@+id/bottomsheetaddcityBTN"
+         app:layout_constraintTop_toBottomOf="@+id/endcity" />
+
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
